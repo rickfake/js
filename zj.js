@@ -11,7 +11,7 @@ oooo
 
 [mitm] 
 
-hostname = api.revenuecat.com
+hostname = integral2.zhijiantime.com
 
 *******************************/
 
