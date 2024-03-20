@@ -6,8 +6,8 @@
 
 
 [rewrite_local]
+^https?://api.revenuecat.com/.+/(receipts$|subscribers/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/rickfake/js/main/qj.js
 
-^https?://integral2.zhijiantime.com/v2/User*  url script-response-body https://raw.githubusercontent.com/rickfake/js/main/zj.js
 
 [mitm] 
 
