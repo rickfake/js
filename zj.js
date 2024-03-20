@@ -14,10 +14,9 @@ hostname = integral2.zhijiantime.com
 
 *******************************/
 
-const py996 = {};
 const rick = JSON.parse(typeof $response != "undefined" && $response.body || null);
 
-rick.ActiveDays=44
-rick.VIP=1
+rick.data.ActiveDays=44
+rick.data.VIP=1
 
-$done(py996);
+$done(rick);
