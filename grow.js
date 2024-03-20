@@ -32,11 +32,19 @@ if (typeof $response == "undefined") {
   py996.headers = $request.headers;
 } else if (py997 && py997.subscriber) {
   data = {
-    "expires_date": "9999-09-09T09:09:09Z",
-    "original_purchase_date": "2023-02-23T02:33:33Z",
-    "purchase_date": "2023-02-23T02:33:33Z",
-    "ownership_type": "PURCHASED",
-    "store": "app_store"
+    "original_purchase_date": "2024-03-18T08:49:39Z",
+                "expires_date": "2029-03-25T08:49:38Z",
+                "is_sandbox": false,
+                "refunded_at": null,
+                "store_transaction_id": "510001514114571",
+                "unsubscribe_detected_at": "2029-03-19T10:15:46Z",
+                "grace_period_expires_date": null,
+                "period_type": "trial",
+                "purchase_date": "2024-03-18T08:49:38Z",
+                "billing_issues_detected_at": null,
+                "ownership_type": "PURCHASED",
+                "store": "app_store",
+                "auto_resume_date": null
   };
   py997.subscriber.subscriptions[(appid)] = data
   py997.subscriber.entitlements[(name)] = JSON.parse(JSON.stringify(data));
