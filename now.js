@@ -18,5 +18,6 @@ hostname = api.revenuecat.com
 
 *******************************/
 
-
-$done(py996);
+var body = $response.body.replace(/"VIP":\w+/, '"is_vip" : true');
+var body = $response.body.replace(/"expire_time":\w+/, '"expire_time" : "9999-09-09T09:09:09Z"')
+$done({ body });
