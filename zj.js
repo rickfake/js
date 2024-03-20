@@ -6,7 +6,7 @@
 
 
 [rewrite_local]
-^https:\/\/integral2\.zhijiantime.com\/vip\/User*$  url script-response-body https://raw.githubusercontent.com/rickfake/js/main/zj.js
+^https:\/\/integral2\.zhijiantime.com\/vip\/User  url script-response-body https://raw.githubusercontent.com/rickfake/js/main/zj.js
 
 [mitm] 
 
