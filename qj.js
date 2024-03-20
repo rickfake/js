@@ -9,7 +9,7 @@
 
 [rewrite_local]
 
-^https:\/\/qianjiga\.litangkj\.com\/vip\/configios url script-response-body https://raw.githubusercontent.com/rickfake/js/main/js/qj.js
+^https?:\/\/qianjiga\.litangkj\.com\/vip\/configios url script-response-body https://raw.githubusercontent.com/rickfake/js/main/js/qj.js
 
 [mitm] 
 
