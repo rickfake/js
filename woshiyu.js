@@ -21,7 +21,7 @@ hostname = api.revenuecat.com
 const py996 = {};
 const py997 = JSON.parse(typeof $response != "undefined" && $response.body || null);
 
-const name = "pro";
+const name = "Pro";
 const appid = "ProOver";
 
   
