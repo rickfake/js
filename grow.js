@@ -38,10 +38,13 @@ if (typeof $response == "undefined") {
     "ownership_type": "PURCHASED",
     "store": "app_store"
   };
-
   py997.subscriber.subscriptions[(appid)] = data
   py997.subscriber.entitlements[(name)] = JSON.parse(JSON.stringify(data));
   py997.subscriber.entitlements[(name)].product_identifier = (appid);
+ 
+ if (py997.subscriber.subscriptions && py997.subscriber.subscriptions["grow_1y_128"]) {
+  py997.subscriber.subscriptions["grow_1y_128"] = undefined;
+}
   py996.body = JSON.stringify(py997);
 }
 
